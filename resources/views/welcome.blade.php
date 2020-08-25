@@ -10,10 +10,11 @@
 </head>
 <body>
     @include('_nav')
+    <h1>@lang('main.title')</h1>
     <div class="container">
         @yield('content')
     </div>
-    
+
     @section('sidebar')
         <h3>Sidebar</h3>
     @show

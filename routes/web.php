@@ -23,7 +23,7 @@ Route::get('/views', function () {
     $name = 'Arturo';
     $last_name = 'Romero';
     $array = [1,2,3,4,5,6];
-    $number = 2;
+    $number = 1;
     return view('view', compact("name", "last_name", "array", "number"));
 });
 
